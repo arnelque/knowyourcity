@@ -72,6 +72,7 @@ a:hover {
 }
 
 .concept3 {
+	background-image: url(../img/mlthumb.png);
 	width: 250px;
 	height: 200px;
 	background-color: black;
