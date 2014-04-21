@@ -1,4 +1,4 @@
-/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+t/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 
 
@@ -8,6 +8,11 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 	background-color: #f0f0f0;
 	padding-top: 25px;
 	padding-left: 50px;
+}
+
+.logo {
+	width: 200px;
+	padding-bottom: 25px;
 }
 
 h3 {
@@ -23,10 +28,14 @@ h4 {
 	font-weight: 500; 
 	font-size: 16px;
 	line-height: 20px;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 }
 
-
+.nextback {
+	font-family: helvetica;
+	font-size: 12px;
+	margin-left: 50%;
+}
 
 .concepts {
 	border-top: gray dashed;
@@ -35,24 +44,47 @@ h4 {
 	padding-top: 35px;
 }
 
-.concept1 {
-	width: 250px;
-	height: 200px;
-	background-color: black;
+a {
+	font-family: helvetica;
+	font-size: 14px;
 }
 
-.concept2 {
+a:hover {
+	color: #ff0000;
+}
+
+.concept1 {
+	background-image: url(../img/scthumb.jpg);
 	width: 250px;
-	height: 200px;
-	background-color: black;
+	height: 175px;
+	margin-bottom: 10px;
+	margin-top: 15px;
+	
+}
+
+
+.concept2 {
+	background-image: url(../img/aqthumb.png);
+	width: 250px;
+	height: 175px;
+	margin-bottom: 10px;
+	margin-top: 15px;
 }
 
 .concept3 {
 	width: 250px;
 	height: 200px;
 	background-color: black;
+	margin-bottom: 10px;
+	margin-top: 15px;
 }
 
+.conceptimg {
+	background-repeat: no-repeat;
+	width: 100%;
+
+}
+ 
 
 li {
 	font-family: helvetica;
